@@ -1,0 +1,37 @@
+
+body {
+font-family: Arial;
+margin: 0;
+background: #faf9f6;
+}
+
+
+header {
+background: white;
+padding: 15px;
+display: flex;
+justify-content: space-between;
+}
+
+
+button {
+padding: 8px 12px;
+margin: 5px;
+border: none;
+background: black;
+color: white;
+cursor: pointer;
+}
+
+
+.page {
+padding: 20px;
+}
+
+
+.hidden {
+display: none;
+}
+
+
+

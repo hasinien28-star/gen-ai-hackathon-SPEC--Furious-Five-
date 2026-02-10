@@ -1,0 +1,65 @@
+<button onclick="showPage('outfits')">Outfits</button>
+<button onclick="showPage('wardrobe')">Wardrobe</button>
+<button onclick="showPage('trends')">Trends</button>
+</nav>
+</header>
+
+
+<section id="home" class="page">
+<h2>Your AI Fashion Assistant</h2>
+<p>Discover your style and boost your confidence ✨</p>
+</section>
+
+
+<section id="analysis" class="page hidden">
+<h2>Photo Style Analysis</h2>
+<input type="file">
+<button onclick="analyzeStyle()">Analyze</button>
+<p id="analysisResult"></p>
+</section>
+
+
+<section id="outfits" class="page hidden">
+<h2>AI Outfit Generator</h2>
+<select id="occasion">
+<option value="casual">Casual</option>
+<option value="college">College</option>
+<option value="formal">Formal</option>
+<option value="party">Party</option>
+</select>
+
+
+<select id="style">
+<option value="minimal">Minimal</option>
+<option value="trendy">Trendy</option>
+</select>
+
+
+<button onclick="generateOutfit()">Generate Outfit</button>
+<p id="outfitResult"></p>
+</section>
+
+
+<section id="wardrobe" class="page hidden">
+<h2>My Wardrobe</h2>
+<input id="clothInput" placeholder="Add clothing item">
+<button onclick="addWardrobe()">Add</button>
+<ul id="wardrobeList"></ul>
+</section>
+
+
+<section id="trends" class="page hidden">
+<h2>Latest Trends</h2>
+<ul>
+<li>Minimal Neutral Looks</li>
+<li>Oversized Fashion</li>
+<li>Monochrome Styling</li>
+</ul>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
